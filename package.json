@@ -2,7 +2,7 @@
   "name": "siren-service",
   "version": "0.0.0",
   "description": "An angular service to help handle siren responses",
-  "main": "siren-service.js",
+  "main": "SirenService.js",
   "scripts": {
     "test": "karma"
   },
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/DarcInc/siren-service",
   "devDependencies": {
-    "karma": "^0.12.6"
+    "karma": "^0.12.6",
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.3"
   }
 }
