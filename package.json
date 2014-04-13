@@ -1,0 +1,28 @@
+{
+  "name": "siren-service",
+  "version": "0.0.0",
+  "description": "An angular service to help handle siren responses",
+  "main": "siren-service.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DarcInc/siren-service.git"
+  },
+  "keywords": [
+    "siren",
+    "hateoas",
+    "json",
+    "angular"
+  ],
+  "author": "DarcInc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarcInc/siren-service/issues"
+  },
+  "homepage": "https://github.com/DarcInc/siren-service",
+  "devDependencies": {
+    "karma": "^0.12.6"
+  }
+}
