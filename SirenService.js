@@ -1,5 +1,5 @@
 /**
- * Created by phoehne on 4/3/14.
+ * Created by Dark Ink LLC on 4/3/14.
  */
 
 var sirenModule = angular.module('siren', []);
@@ -62,7 +62,7 @@ sirenModule.service('SirenService', ["$http", "$q", function($http, $q) {
           var defered = $q.defer();
           var data = null;
           if (arguments.length >= 2) {
-            if (_.isObject(arguments[1])) {
+            if (angular.isObject(arguments[1])) {
               data = arguments[1];
             } else {
               /* TODO: throw exception if more arguments than fields */
